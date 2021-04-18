@@ -1,0 +1,48 @@
+.background--cover {
+    display: flex;
+    align-items: flex-end;
+    box-sizing: cover;
+    position: absolute;
+}
+
+.fade {
+    display: none;
+}
+
+.next {
+    padding: 10px 20px;
+    width: fit-content;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+    right: 22%;
+    margin: 10px 20px;
+}
+
+.previous {
+    padding: 10px 20px;
+    width: fit-content;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+    right: 22%;
+    margin: 10px 20px;
+}
+
+.next:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.previous:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
